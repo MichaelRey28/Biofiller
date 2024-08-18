@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Registration Form | Your Company Name</title>
+  <link rel="stylesheet" href="assets/css/register_style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="assets/img/BIOFILLER_logo.png" rel="icon">
+
+</head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Select Province</span>
+            <select required>
+              <option value="" disabled selected>Select Province</option>
+              <option value="province1">Province 1</option>
+              <option value="province2">Province 2</option>
+              <option value="province3">Province 3</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Select Municipality</span>
+            <select required>
+              <option value="" disabled selected>Select Municipality</option>
+              <option value="municipality1">Municipality 1</option>
+              <option value="municipality2">Municipality 2</option>
+              <option value="municipality3">Municipality 3</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <input type="radio" name="gender" id="male">
+            <label for="male"><span class="gender">Male</span></label>
+            
+            <input type="radio" name="gender" id="female">
+            <label for="female"><span class="gender">Female</span></label>
+            
+            <input type="radio" name="gender" id="other">
+            <label for="other"><span class="gender">Prefer not to say</span></label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+        <div class="centered-links">
+          <a href="login.html">Already have an account? <span>Click here</span></a>
+          <a href="index.html" style="color: #B1ACB2;">Return Home</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
